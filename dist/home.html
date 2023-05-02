@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230502221858">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<a href="" class="header__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<nav class="header__bar">
+						<div class="header__language language-header">
+							<select data-show-selected name="form[]" data-class-modif="form">
+								<option value="" selected>Змінити мову</option>
+								<option data-one-select value="2">Українська</option>
+								<option value="3">Англійська</option>
+								<option value="4">Німецька</option>
+							</select>
+						</div>
+						<div class="header__social social-header">
+							<div class="social-header__link">
+								<a href="#" target="_blank" class="social-header__viber"><img src="img/viber.svg" alt="Viber"></a>
+								<a href="#" target="_blank" class="social-header__telegram"><img src="img/telegram.svg" alt="Telegram"></a>
+								<a href="#" target="_blank" class="social-header__whatsap"><img src="img/whatsup.svg" alt="Whatsup"></a>
+							</div>
+						</div>
+						<div class="header__tel">
+							<a class="icon-phone" href=""></a>
+							<a class="" href="tel:095-472-5109">+380 999 999 99</a>
+							<button type="button" class="header__icon"><span></span></button>
+						</div>
+						<div class="header__cart">
+							<img src="img/cart.svg" alt="">
+							<span>16</span>
+						</div>
+					</nav>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Інградієнти</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Обладнання та аксесуари</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Фермент для сиру</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Закваски для сиру</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Покриття для сирів</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Рецепти</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__promotion promotion-page">
+				<!-- <div class="promotion-page__img">
+					<picture><source srcset="img/background-promotion.webp" type="image/webp"><img src="img/background-promotion.png" alt="promotion"></picture>
+				</div> -->
+				<div class="promotion-page__container">
+					<div class="promotion-page__about">
+						<h2 class="promotion-page__title">Космічна Акція</h2>
+						<p class="promotion-page__text"><span>Купуй 2</span> шевра і <span>отримай 3</span>-тій в подарунок
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="page__ourcheese ourcheese-page">
+				<div class="ourcheese-page__container">
+					<div class="ourcheese-page__slider swiper">
+						<div class="ourcheese-page__text page-title">
+							<h2 class="ourcheese-page__title">Наш Сир</h2>
+							<div class="ourcheese-page__buttons">
+								<button type="button" class="swiper-button-prev"><img src="img/slider/left_fill.svg" alt=""></button>
+								<button type="button" class="swiper-button-next"><img src="img/slider/right_fill.svg" alt=""></button>
+							</div>
+						</div>
+						<div class="ourcheese-page__wrapper swiper-wrapper">
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/shevr.webp" type="image/webp"><img class swiper-slide__image-img src="img/slider/shevr.png" alt="Шевр"></picture></a>
+										<span class="swiper-slide__promo">Акція</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Шевр</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide-sale">
+											<span class="price-slide-sale__discount">80 грн</span>
+											<span class="price-slide-sale__normal">100 грн</span>
+											<span class="price-slide-sale__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/brinz.webp" type="image/webp"><img src="img/slider/brinz.png" alt="Бринза"></picture></a>
+										<span class="swiper-slide__sale">Топ продажу</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Бринза</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__normal">300 грн</span>
+											<span class="price-slide__weight">1кг.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/sek.webp" type="image/webp"><img src="img/slider/sek.png" alt="Сек"></picture></a>
+										<span class="swiper-slide__discount">-40%</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Сек</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__normal">60 грн</span>
+											<span class="price-slide__weight">80 г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/feta.webp" type="image/webp"><img src="img/slider/feta.png" alt="Фета"></picture></a>
+										<span class="swiper-slide__sale">Топ продажу</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Фета</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide-sale">
+											<span class="price-slide-sale__discount">80 грн</span>
+											<span class="price-slide-sale__normal">100 грн</span>
+											<span class="price-slide-sale__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/shevr.webp" type="image/webp"><img src="img/slider/shevr.png" alt="Шевр"></picture></a>
+										<span class="swiper-slide__promo">Акція</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Шевр</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__discount">80 грн</span>
+											<span class="price-slide__normal">100 грн</span>
+											<span class="price-slide__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/shevr.webp" type="image/webp"><img src="img/slider/shevr.png" alt="Шевр"></picture></a>
+										<span class="swiper-slide__promo">Акція</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Шевр</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__discount">80 грн</span>
+											<span class="price-slide__normal">100 грн</span>
+											<span class="price-slide__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__notcheese notcheese-page">
+				<div class="notcheese-page__container">
+					<div class="ourcheese-page__slider swiper">
+						<div class="ourcheese-page__text">
+							<h2 class="ourcheese-page__title">Не сир</h2>
+							<div class="ourcheese-page__buttons">
+								<button type="button" class="swiper-button-prev"><img src="img/slider/left_fill.svg" alt=""></button>
+								<button type="button" class="swiper-button-next"><img src="img/slider/right_fill.svg" alt=""></button>
+							</div>
+						</div>
+						<div class="ourcheese-page__wrapper swiper-wrapper">
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/milk.webp" type="image/webp"><img src="img/slider/milk.png" alt="Молоко"></picture></a>
+										<span class="swiper-slide__sale">Топ продажу</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Молоко</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__normal">40 грн</span>
+											<span class="price-slide__weight">1л.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href="#"><picture><source srcset="img/slider/yogurt.webp" type="image/webp"><img src="img/slider/yogurt.png" alt="Йогурт"></picture></a>
+										<!-- <span class="swiper-slide__sale">Топ продажу</span> -->
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Йогурт</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__normal">45 грн</span>
+											<span class="price-slide__weight">0,5л</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/serum.webp" type="image/webp"><img src="img/slider/serum.png" alt="Сироватка"></picture></a>
+										<span class="swiper-slide__discount">-40%</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Сироватка</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide-sale">
+											<span class="price-slide-sale__discount">20 грн</span>
+											<span class="price-slide-sale__normal">35 грн</span>
+											<span class="price-slide-sale__weight">1л.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/icecream.webp" type="image/webp"><img src="img/slider/icecream.png" alt="Морозиво"></picture></a>
+										<span class="swiper-slide__sale">Топ продажу</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Фета</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide-sale">
+											<span class="price-slide-sale__discount">60 грн</span>
+											<span class="price-slide-sale__normal">100 грн</span>
+											<span class="price-slide-sale__weight">300г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/shevr.webp" type="image/webp"><img src="img/slider/shevr.png" alt="Шевр"></picture></a>
+										<span class="swiper-slide__promo">Акція</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Шевр</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__discount">80 грн</span>
+											<span class="price-slide__normal">100 грн</span>
+											<span class="price-slide__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ourcheese-page__slide swiper-slide">
+								<div class="swiper-slide__body">
+									<div class="swiper-slide__img">
+										<a class="swiper-slide__image-ibg" href=""><picture><source srcset="img/slider/shevr.webp" type="image/webp"><img src="img/slider/shevr.png" alt="Шевр"></picture></a>
+										<span class="swiper-slide__promo">Акція</span>
+									</div>
+									<div class="swiper-slide__text">
+										<h3 class="swiper-slide__title">Шевр</h3>
+										<p class="swiper-slide__info">Лорем ипсум долор сит амет, ин еос чоро алиенум.</p>
+										<div class="swiper-slide__price price-slide">
+											<span class="price-slide__discount">80 грн</span>
+											<span class="price-slide__normal">100 грн</span>
+											<span class="price-slide__weight">160г.</span>
+										</div>
+									</div>
+									<div class="swiper-slide__hidden">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+
+										<div class="swiper-slide__quantity">
+											<div data-quantity class="quantity">
+												<div class="quantity__text">
+													<a href="#">До кошика</a>
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											</div>
+										</div>
+										<div class="swiper-slide__bought">
+											<a href="#">Придбати в 1 клік</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about-page">
+				<div class="about-page__container">
+					<div class="about-page__body">
+						<div class="about-page__logo"><img src="img/logo2.svg" alt=""></div>
+						<div class="about-page__text">
+							<h2 class="about-page__title">Про нас</h2>
+							<p>Лорем ипсум долор сит амет, ин еос чоро алиенум, ат хас аеяуе цонвенире. Ин вис дицо регионе
+								тинцидунт, еи цасе ностер вим, не вел фугит дицам ехпетенда. Вим долорес лобортис ат, алии
+								торяуатос но дуо, хас саепе сцаевола пондерум ех. Хис те дицо ехерци, дуо еа алтерум цонсеяуат,
+								ат вертерем антиопам ехплицари хас. Вих сцрипта принципес ад, яуо еи примис дицерет, ребум
+								делицата цу ест.</p>
+							<p>Лорем ипсум долор сит амет, ин еос чоро алиенум, ат хас аеяуе цонвенире. Ин вис дицо регионе
+								тинцидунт, еи цасе ностер вим, не вел фугит дицам ехпетенда. Вим долорес лобортис ат, алии
+								торяуатос но дуо, хас саепе сцаевола пондерум ех. Хис те дицо ехерци, дуо еа алтерум цонсеяуат,
+								ат вертерем антиопам ехплицари хас. Вих сцрипта принципес ад, яуо еи примис дицерет, ребум
+								делицата цу ест.</p>
+						</div>
+					</div>
+					<div class="about-page__instagram instagram-about ">
+						<div class="instagram-about">
+							<div class="instagram-about__text page-title">
+								<h2 class="instagram-about__title">Instagram</h2>
+							</div>
+							<div class="instagram-about__page">
+								<div data-gallery class="instagram-about__gallery gallery">
+									<a href="img/galery1full.jpeg" class="gallery__image">
+										<picture><source srcset="img/galery1.webp" type="image/webp"><img alt="Превью" src="img/galery1.png" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery2full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery2.webp" type="image/webp"><img alt="Превью" src="img/galery2.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery3full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery3.webp" type="image/webp"><img alt="Превью" src="img/galery3.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery4full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery4.webp" type="image/webp"><img alt="Превью" src="img/galery4.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery5full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery5.webp" type="image/webp"><img alt="Превью" src="img/galery5.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery6full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery6.webp" type="image/webp"><img alt="Превью" src="img/galery6.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery7full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery7.webp" type="image/webp"><img alt="Превью" src="img/galery7.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery8full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery8.webp" type="image/webp"><img alt="Превью" src="img/galery8.jpg" class="gallery__preview"></picture>
+									</a>
+									<a href="img/galery9full.jfif" class="gallery__image">
+										<picture><source srcset="img/galery9.webp" type="image/webp"><img alt="Превью" src="img/galery9.jpg" class="gallery__preview"></picture>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230502221858"></script>
+</body>
+
+</html>
